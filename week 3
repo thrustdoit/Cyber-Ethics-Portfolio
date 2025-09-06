@@ -1,0 +1,65 @@
+License Choice
+
+For this project, I would choose the MIT License. It is permissive, requiring only attribution while allowing wide reuse and adaptation, including integration into proprietary code. This choice avoids copyleft restrictions of GPL while still supporting open collaboration. Apache License was another option, but MIT’s simplicity and compatibility make it ideal for small internal or academic tools.
+
+Initial Vulnerability Report Template
+
+Contact Information
+
+Reporter Name/Handle: [Redacted]
+
+Contact Email: [Redacted]
+
+Product Information
+
+Product Name & Version: __________
+
+Environment: OS, hardware, or cloud environment
+
+Reproducible Summary
+
+Description: Clear steps to observe the issue (no exploit details)
+
+Expected Result: __________
+
+Actual Result: __________
+
+Impact
+
+Potential security, privacy, or operational risks
+
+Mitigation / Workaround (if any)
+
+Temporary fixes or configuration changes available to reduce risk
+
+Coordination Timeline
+
+Date reported
+
+Acknowledgment received
+
+Fix under development
+
+Patch released
+
+Public disclosure (if coordinated)
+
+Justification
+
+This approach follows best practices outlined in CISA’s Coordinated Vulnerability Disclosure (VDP) guidance. CISA emphasizes structured communication, reproducibility, and coordinated disclosure timelines to protect users while allowing vendors to remediate. Aligning my license and reporting process with these frameworks ensures compliance, transparency, and professional accountability.
+
+Evidence Links
+
+Case Brief (PDF)
+
+Weekly Reflection (PDF)
+
+Sample Code/Diagrams
+
+Reflection
+
+If I refined this portfolio entry further, I would expand the vulnerability template to include fields for severity scoring (CVSS) and affected stakeholders. I would also explore whether Apache License might provide stronger patent protections in a professional context. This matters because stakeholders—such as security teams, developers, and end users—rely on clear communication to maintain trust and ensure timely mitigation.
+
+AI Use Note
+
+I used ChatGPT to generate the structure and draft language for this portfolio page. I edited the output for clarity, voice, and assignment alignment.
