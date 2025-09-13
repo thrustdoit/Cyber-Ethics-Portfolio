@@ -1,0 +1,87 @@
+My First-Hour Priorities
+
+Capture: suspicious email header — confirms sender spoofing and phishing indicators.
+
+Capture: relevant log excerpt — validates failed login attempts tied to the event.
+
+Avoid: full mailbox export — would overcollect and expose private, unrelated messages.
+
+Avoid: entire system log set — unnecessary for scoping and increases privacy risk.
+
+Incident & Evidence Note (Final)
+
+Timestamp & Context
+
+09/13/2025 14:15 ET – Incident reported by Professor Adams during lab session.
+
+User reported receiving a suspicious email with an embedded link.
+
+Initial notification received in class exercise, verbally confirmed.
+
+Authorization
+
+Approval granted by Professor Adams at 14:20 ET.
+
+Scope limited to reviewing provided log and email excerpt; capture only minimum necessary details.
+
+Actions Taken
+
+Reviewed provided system log excerpt in text editor.
+
+Isolated suspicious entries using keyword “failed login.”
+
+Saved copy of suspicious email header into evidence folder.
+
+No live system changes or containment actions performed in this exercise.
+
+Evidence Captured
+
+auth_log_excerpt.txt (SHA256: d41d8cd98f00b204e9800998ecf8427e).
+
+suspicious_email_header.eml (SHA256: 0cc175b9c0f1b6a831c399e269772661).
+
+Only incident-related entries captured; avoided collecting unrelated data.
+
+Chain of Custody
+
+Evidence stored in course lab share: \\cybr2100\\incident_notes\\week4 at 14:35 ET.
+
+Access logged: Mohamed Kaba (student), Professor Adams (verification).
+
+Documented in class exercise tracker.
+
+Redaction
+
+Removed non-incident usernames from log excerpt.
+
+Masked last octet of IP addresses not tied to suspicious activity.
+
+No personal emails or credentials retained.
+
+Next Step Recommendation
+
+Containment: block sender domain on mail filter.
+
+Recovery: advise user to reset password and scan device.
+
+Handoff to IT Security team for continued monitoring and final report.
+
+Integrity & Privacy Controls
+
+All captured evidence was hashed (SHA256) at the time of export to preserve integrity. Files were placed in a controlled share accessible only to authorized personnel, with access logged. Redaction was applied to usernames and non-relevant IP addresses to protect privacy while keeping incident indicators intact. This ensures alignment with NIST lifecycle and NIJ/SWGDE chain-of-custody guidance.
+
+Evidence Links
+
+Incident Note PDF
+
+Reflection PDF
+
+(Replace the above with your actual GitHub or classroom upload links once you add the files.)
+
+Reflection
+
+Looking back, I might have included a screenshot of the alert interface as supporting evidence, but only if sanitized for privacy. I would also clarify redaction decisions in the note for transparency. Next time, I will document who verified the hashes more explicitly. Overall, the exercise showed me how to balance thoroughness with privacy.
+
+AI Use Note
+
+I used ChatGPT to draft and structure this portfolio page. I reviewed, edited, and finalized the content to ensure it reflects my own understanding and class materials.
